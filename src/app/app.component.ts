@@ -3,6 +3,7 @@ import { RouterOutlet, Router, Event, NavigationEnd } from '@angular/router';
 import { IStaticMethods } from 'preline/preline';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './home/header/header.component';
+import { AboutusComponent } from './home/aboutus/aboutus.component';
 
 declare global {
   interface Window {
@@ -16,7 +17,8 @@ declare global {
   imports: [
     RouterOutlet, 
     NavbarComponent, 
-    HeaderComponent
+    HeaderComponent,
+    AboutusComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
