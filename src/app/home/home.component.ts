@@ -5,6 +5,7 @@ import { OurfeatureComponent } from './ourfeature/ourfeature.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { BlogComponent } from './blog/blog.component';
 import { FaqComponent } from './faq/faq.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,7 @@ import { FaqComponent } from './faq/faq.component';
     TestimonialsComponent,
     BlogComponent,
     FaqComponent,
+    ContactusComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
