@@ -6,6 +6,7 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { BlogComponent } from './blog/blog.component';
 import { FaqComponent } from './faq/faq.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +19,7 @@ import { ContactusComponent } from './contactus/contactus.component';
     BlogComponent,
     FaqComponent,
     ContactusComponent,
+    GalleryComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
