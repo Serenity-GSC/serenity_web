@@ -3,6 +3,7 @@ import { RouterOutlet, Router, Event, NavigationEnd } from '@angular/router';
 import { IStaticMethods } from 'preline/preline';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 declare global {
   interface Window {
@@ -17,6 +18,7 @@ declare global {
     RouterOutlet, 
     NavbarComponent, 
     HomeComponent,
+    FooterComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
