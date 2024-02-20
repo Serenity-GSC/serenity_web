@@ -7,7 +7,7 @@ import { NotificationService } from '../notification.service';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './notification.component.html',
-  styleUrl: './notification.component.css'
+  styleUrl: './notification.component.css',
 })
 export class NotificationComponent implements OnInit {
   isVisible: boolean = false;
@@ -21,7 +21,7 @@ export class NotificationComponent implements OnInit {
       this.message = data.message;
       setTimeout(() => {
         this.isVisible = false; // Automatically hide the notification after a certain time
-      }, 5000);
+      }, 3000);
     });
   }
 }

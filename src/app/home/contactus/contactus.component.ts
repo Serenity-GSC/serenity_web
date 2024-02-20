@@ -24,11 +24,11 @@ export class ContactusComponent {
         })
         .then(()=>{
           // Show success notification
+          this.notificationService.showSuccess('Email sent successfully!');
           console.log('Email sent successfully!');
         }, (error) => {
           console.error('Email sent failed:', error);
         });
-        this.notificationService.showSuccess('Email sent successfully!');
       }
 }
 
